@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	background-color: LavenderBlush;
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: normal;
+}
+
+.funfacts {
+	font-size: 20px;
+	height: 150px;
+	width: 480px;
+	text-align: center;
+	background-color: White;
+	position: absolute;
+	left: 37%;
+	margin: 10px;
+	border-radius: 15px;
+}
