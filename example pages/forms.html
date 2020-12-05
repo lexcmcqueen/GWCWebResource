@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Superhero quiz</title>
+		<style>
+			body {
+				background-color: lightblue;
+				font-family: Helvetica;
+			}
+
+			#main {
+				width: 80%;
+				max-width: 950px;
+				border: 1px gray solid;
+				margin: auto;
+				padding: 10px;
+				background-color: white;
+				border-radius: 10px;
+			}
+			#header {
+				margin-top: 0;
+				border: 2px solid black;
+				padding: 5px;
+				height: 250px;
+				background: beige;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1> This is a Superhero Questionnaire!! </h1>
+		<h3> What kind of superhero are you? </h3>
+
+		<form onsubmit="display()">
+			<label form="supername">What is your superhero name?</label>
+			<input type="text" id="supername" name="supername"><br>
+
+			<label for="strength">How strong are you? </label>
+  			<input type="range" id="strength" name="strength" min="0" max="50">
+
+  			<label for="speed">How fast are you? </label>
+  			<input type="range" id="speed" name="speed" min="0" max="50">
+
+  			<label for="stealthy">How stealthy are you? </label>
+  			<input type="range" id="stealthy" name="stealthy" min="0" max="50"><br>
+
+  			<label form="supername">What is your superpower?</label>
+			<input type="text" id="power" name="power"><br>
+
+  			<label for="date">What day do you save the world?</label>
+  			<input type="date" id="date" name="date"><br>
+
+			<input type="submit" value="Submit">
+		</form>
+		<script>
+			function display(){
+				var name= document.getElementById("supername").value;
+				var date= document.getElementById("date").value;
+				var power= document.getElementById("power").value;
+				window.alert("Superhero: "+name+ " with the power of " +power+
+					"\nThank you for saving the world on "+ date);
+			}
+		</script>
+	</body>
+</html>
+
