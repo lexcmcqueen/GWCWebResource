@@ -22,6 +22,10 @@ Basics of HTML - Week 1 (10/17/2020)
   
   
   Resources 
+  Project Page: Card Example Code 
+  https://bootsnipp.com/snippets/3Meen
+  COntact Us Possibility
+  https://bootsnipp.com/snippets/92xNm
   https://www.learn-html.org/en/Basic_Elements
   http://www.goodellgroup.com/tutorial/chapter1.html
   https://curriculum.code.org/csd-1718/unit2/3/
