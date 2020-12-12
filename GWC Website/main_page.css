@@ -4,18 +4,33 @@
 }
 
 
-mark {
-    background-color: #3BCEAC;
-    color: black;
+.bubble_menu{
+  text-align:center
 }
 
-.dot {
-    height: 150px;
-    width: 150px;
-    background-color: #3BCEAC;
-    border-radius: 50%;
-    display: inline-block;
-  }
+.bubble_menu button {
+  background-color: #3BCEAC;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px;
+  color: #000000;
+  border-radius: 50%;
+}
+.button:hover {
+  background-color: #000000; 
+  color: #f2f2f2;
+}
+
+
+h1, h2, p{
+  text-align:center
+}
 
   /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -70,8 +85,6 @@ mark {
     top: 0;
   }
   
- 
-  
   .row:after {
     content: "";
     display: table;
@@ -88,4 +101,17 @@ mark {
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
   }
