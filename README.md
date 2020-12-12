@@ -1,17 +1,17 @@
 # GWCWebResource
 This is a repository for GWC @ Otterbein's fall/winter session. It holds all of the HTML/CSS/JavaScript files needed for the practice websites made by the facilitators to show the girls.
 
-##Set-Up Tasks
+## Set-Up Tasks
 Download and Install Sublime
 https://www.sublimetext.com/
 
 
-###Basics of HTML - Week 1 (10/17/2020) 
-* Headings 
+### Basics of HTML - Week 1 (10/17/2020) 
+1. Headings 
 <h1> .... <h6>
-* Display pictures 
+2. Display pictures 
   <img src="<link>"></img>
-* Links to other websites
+3. Links to other websites
   
  #### _Sample About Me Pages_
  * https://codepen.io/nsieber/pen/vOVQgg 
