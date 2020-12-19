@@ -1,0 +1,111 @@
+* {
+    font-family: 'Emilys Candy', cursive;  
+    background-color: #F4D58D;
+}
+
+
+.bubble_menu{
+  text-align:center
+}
+
+.bubble_menu button {
+  background-color: #3BCEAC;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px;
+  color: #000000;
+  border-radius: 50%;
+}
+.button:hover {
+  background-color: #000000; 
+  color: #f2f2f2;
+}
+
+/*photo slideshow*/
+.tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 300px;
+  width: 2526px;
+  background: url(/images/slideshow.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -300px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+h1, h2, p{
+  text-align:center
+}
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
