@@ -45,6 +45,7 @@
   top: 0;
   left: 0;
   height: 100%;
+  /* Hey browser, use your GPU */
   transform: translate3d(0, 0, 0);
 }
 .tech-slideshow .mover-1 {
